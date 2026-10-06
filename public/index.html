@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f6b3a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Veterans 1ª">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Veterans 1ª Divisió</title>
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>1ª Divisió</h1>
+      <p class="sub">Veterans Vallès-Maresme · 2026-27 · <span id="ver"></span></p>
+    </div>
+    <button id="refresh" class="icon-btn" aria-label="Actualizar">↻</button>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+  <main id="view" aria-live="polite"></main>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="standings" aria-selected="true"><span>🏆</span>Clasificación</button>
+    <button role="tab" data-tab="calendar"><span>📅</span>Jornadas</button>
+    <button role="tab" data-tab="rankings"><span>⚽</span>Rankings</button>
+    <button role="tab" data-tab="teams"><span>👥</span>Equipos</button>
+    <button role="tab" data-tab="committee"><span>⚖️</span>Comité</button>
+  </nav>
+
+  <script src="/app.js"></script>
+</body>
+</html>
