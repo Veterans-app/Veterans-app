@@ -1,0 +1,18 @@
+{
+  "name": "veterans-1a-divisio",
+  "version": "1.4.0",
+  "description": "PWA móvil con la clasificación, calendario, rankings y equipos de la Lliga de 1ª Divisió (Veterans Vallès-Maresme)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test \"test/*.test.js\"",
+    "check": "node scripts/check.js",
+    "diagnose": "node scripts/diagnose.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
